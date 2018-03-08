@@ -46,21 +46,18 @@ public class Principal {
         // ajuste do tamanho do vetor resultante
         unicos = Arrays.copyOf( unicos , qtd );
 
+        
+       // int[] completo = Arrays.sort();
+        
         // imprime resultado
         for( int i = 0 ; i < unicos.length ; i++ ) {
         	data.add(unicos[i]);
-            System.out.println( "" + i + " = " + unicos[ i ] );
+            
         }
 		
 		
 	}
 	
 	
-	
-	
-	
-	static void geraIntervalo(int in, int fin){
-		
-	}
 
 }
